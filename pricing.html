@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional home and commercial cleaning services. Trusted, insured, and eco-friendly cleaning solutions."
+    />
+    <title>
+      Maria Cleaning Services - Professional Home & Commercial Cleaning
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <nav>
+        <a href="index.html" class="logo" onclick="showSection('home')">
+          <i class="fas fa-sparkles"></i>
+          <span>Maria Cleaning Services</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" onclick="showSection('home')">Home</a></li>
+          <li><a href="about.html" onclick="showSection('about')">About</a></li>
+          <li><a href="services.html" onclick="showSection('services')">Services</a></li>
+          <li><a href="pricing.html" onclick="showSection('pricing')">Pricing</a></li>
+          <li>
+            <a href="#testimonials" onclick="showSection('testimonials')">Testimonials</a>
+          </li>
+          <li>
+            <a href="#contact" onclick="showSection('contact')" class="cta-btn"
+              >Book Now</a
+            >
+          </li>
+        </ul>
+        <i class="fas fa-bars mobile-menu" onclick="toggleMenu()"></i>
+      </nav>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home" class="page-section active">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Professional & Reliable Home & Commercial Cleaning</h1>
+        <p>We make your space spotless — one room at a time.</p>
+        <a href="#" onclick="showSection('contact')" class="hero-btn"
+          >Book Now</a
+        >
+      </section>
+
+     
+    <!-- Pricing Page -->
+    <!-- <div id="pricing" class="page-section"> -->
+        <section class="container">
+            <h2 class="section-title">Our Pricing</h2>
+            <p class="section-subtitle">Transparent, competitive rates with no hidden fees</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Basic Clean</h3>
+                    <div class="price">$120</div>
+                    <p class="price-period">Per Visit</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Dusting all surfaces</li>
+                        <li><i class="fas fa-check"></i> Vacuum & mop floors</li>
+                        <li><i class="fas fa-check"></i> Kitchen cleaning</li>
+                        <li><i class="fas fa-check"></i> Bathroom sanitization</li>
+                        <li><i class="fas fa-check"></i> Trash removal</li>
+                    </ul>
+                    <a href="#" onclick="showSection('contact')" class="cta-btn">Book Now</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <h3>Standard Clean</h3>
+                    <div class="price">$180</div>
+                    <p class="price-period">Per Visit</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Basic</li>
+                        <li><i class="fas fa-check"></i> Inside microwave & fridge</li>
+                        <li><i class="fas fa-check"></i> Baseboards wiping</li>
+                        <li><i class="fas fa-check"></i> Window sills cleaning</li>
+                        <li><i class="fas fa-check"></i> Oven cleaning</li>
+                    </ul>
+                    <a href="#" onclick="showSection('contact')" class="cta-btn">Book Now</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Delux Clean</h3>
+                    <div class="price">$280</div>
+                    <p class="price-period">Per Visit</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Standard Clean</li>
+                        <li><i class="fas fa-check"></i> Inside microwave & fridge</li>
+                        <li><i class="fas fa-check"></i> Baseboards wiping</li>
+                        <li><i class="fas fa-check"></i> Window sills cleaning</li>
+                        <li><i class="fas fa-check"></i> Oven cleaning</li>
+                    </ul>
+                    <a href="#" onclick="showSection('contact')" class="cta-btn">Book Now</a>
+                </div>
+    </section>
+    <!-- </div> -->
+  </body>
+</html>
