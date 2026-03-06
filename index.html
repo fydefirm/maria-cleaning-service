@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -20,24 +20,26 @@
     />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
+
   <body>
     <!-- Header & Navigation -->
     <header>
       <nav>
-        <a href="index.html" class="logo" onclick="showSection('home')">
+        <a href="#" class="logo" onclick="showSection('home')">
           <i class="fas fa-sparkles"></i>
           <span>Maria Cleaning Services</span>
         </a>
         <ul class="nav-links" id="navLinks">
-          <li><a href="index.html" onclick="showSection('home')">Home</a></li>
-          <li><a href="about.html" onclick="showSection('about')">About</a></li>
-          <li><a href="services.html" onclick="showSection('services')">Services</a></li>
-          <li><a href="pricing.html" onclick="showSection('pricing')">Pricing</a></li>
+          <li><a href="#" onclick="showSection('home')">Home</a></li>
+          <li><a href="#" onclick="showSection('about')">About</a></li>
+          <li><a href="#" onclick="showSection('services')">Services</a></li>
+          <li><a href="#" onclick="showSection('pricing')">Pricing</a></li>
           <li>
-            <a href="#testimonials" onclick="showSection('testimonials')">Testimonials</a>
+            <a href="#" onclick="showSection('testimonials')">Testimonials</a>
           </li>
+          <li><a href="#" onclick="showSection('blog')">Blog</a></li>
           <li>
-            <a href="#contact" onclick="showSection('contact')" class="cta-btn"
+            <a href="#" onclick="showSection('contact')" class="cta-btn"
               >Book Now</a
             >
           </li>
@@ -197,38 +199,556 @@
       </section>
     </div>
 
+    <!-- About Page -->
+    <div id="about" class="page-section">
+      <section class="container">
+        <div class="about-content">
+          <div class="about-image">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="about-text">
+            <h2>About Maria Cleaning Services</h2>
+            <p>
+              Maria Cleaning Services has been serving the local community with
+              detail-oriented cleaning and unmatched customer care for over 10
+              years. What started as a one-person operation has grown into a
+              trusted team of dedicated professionals.
+            </p>
+            <p>
+              Our mission is simple: to provide exceptional cleaning services
+              that make our clients' lives easier and their spaces healthier. We
+              stand behind quality, professionalism, and respect for your home
+              or business.
+            </p>
+            <p><strong>Our Values:</strong></p>
+            <ul
+              style="
+                color: var(--text-light);
+                margin-left: 1.5rem;
+                line-height: 1.8;
+              "
+            >
+              <li>Excellence in every detail</li>
+              <li>Trustworthiness and integrity</li>
+              <li>Environmental responsibility</li>
+              <li>Customer satisfaction guaranteed</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Services Page -->
+    <div id="services" class="page-section">
+      <section class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">
+          Comprehensive cleaning solutions for every need
+        </p>
+
+        <div style="margin-bottom: 3rem">
+          <div class="service-card" style="max-width: 100%">
+            <div class="service-icon">
+              <i class="fas fa-broom"></i>
+            </div>
+            <div class="service-content">
+              <h3>Residential Cleaning</h3>
+              <p>
+                Our residential cleaning service keeps your home fresh, clean,
+                and welcoming. We customize our services to match your specific
+                needs and preferences.
+              </p>
+              <p>
+                <strong>Includes:</strong> Dusting, vacuuming, mopping, kitchen
+                cleaning, bathroom sanitization, trash removal
+              </p>
+              <p><strong>Starting at:</strong> $120 per visit</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 3rem">
+          <div class="service-card" style="max-width: 100%">
+            <div class="service-icon">
+              <i class="fas fa-spray-can"></i>
+            </div>
+            <div class="service-content">
+              <h3>Deep Cleaning</h3>
+              <p>
+                A comprehensive, top-to-bottom cleaning service perfect for
+                spring cleaning, special occasions, or when your space needs
+                extra attention.
+              </p>
+              <p>
+                <strong>Includes:</strong> All standard cleaning plus
+                baseboards, inside appliances, window washing, detailed bathroom
+                scrubbing, closet organization
+              </p>
+              <p><strong>Starting at:</strong> $250 per visit</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 3rem">
+          <div class="service-card" style="max-width: 100%">
+            <div class="service-icon">
+              <i class="fas fa-truck-moving"></i>
+            </div>
+            <div class="service-content">
+              <h3>Move-In/Out Cleaning</h3>
+              <p>
+                Make your transition smooth with our thorough move-in or
+                move-out cleaning service. Perfect for landlords, renters, and
+                new homeowners.
+              </p>
+              <p>
+                <strong>Includes:</strong> Complete deep clean of all rooms,
+                inside cabinets and appliances, walls and baseboards, floors,
+                windows
+              </p>
+              <p><strong>Starting at:</strong> $300 per property</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 3rem">
+          <div class="service-card" style="max-width: 100%">
+            <div class="service-icon">
+              <i class="fas fa-building"></i>
+            </div>
+            <div class="service-content">
+              <h3>Commercial Cleaning</h3>
+              <p>
+                Professional cleaning solutions for offices, retail spaces, and
+                commercial properties. Flexible scheduling to minimize
+                disruption to your business.
+              </p>
+              <p>
+                <strong>Includes:</strong> Office cleaning, restroom
+                sanitization, floor care, trash removal, break room maintenance,
+                custom service plans
+              </p>
+              <p>
+                <strong>Starting at:</strong> Custom quote based on size and
+                frequency
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
     <!-- Pricing Page -->
     <div id="pricing" class="page-section">
-        <section class="container">
-            <h2 class="section-title">Our Pricing</h2>
-            <p class="section-subtitle">Transparent, competitive rates with no hidden fees</p>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3>Basic Clean</h3>
-                    <div class="price">$120</div>
-                    <p class="price-period">Per Visit</p>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Dusting all surfaces</li>
-                        <li><i class="fas fa-check"></i> Vacuum & mop floors</li>
-                        <li><i class="fas fa-check"></i> Kitchen cleaning</li>
-                        <li><i class="fas fa-check"></i> Bathroom sanitization</li>
-                        <li><i class="fas fa-check"></i> Trash removal</li>
-                    </ul>
-                    <a href="#" onclick="showSection('contact')" class="cta-btn">Book Now</a>
-                </div>
+      <section class="container">
+        <h2 class="section-title">Our Pricing</h2>
+        <p class="section-subtitle">
+          Transparent, competitive rates with no hidden fees
+        </p>
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3>Basic Clean</h3>
+            <div class="price">$120</div>
+            <p class="price-period">Per Visit</p>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Dusting all surfaces</li>
+              <li><i class="fas fa-check"></i> Vacuum & mop floors</li>
+              <li><i class="fas fa-check"></i> Kitchen cleaning</li>
+              <li><i class="fas fa-check"></i> Bathroom sanitization</li>
+              <li><i class="fas fa-check"></i> Trash removal</li>
+            </ul>
+            <a href="#" onclick="showSection('contact')" class="cta-btn"
+              >Book Now</a
+            >
+          </div>
 
-                <div class="pricing-card featured">
-                    <h3>Standard Clean</h3>
-                    <div class="price">$180</div>
-                    <p class="price-period">Per Visit</p>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Everything in Basic</li>
-                        <li><i class="fas fa-check"></i> Inside microwave & fridge</li>
-                        <li><i class="fas fa-check"></i> Baseboards wiping</li>
-                        <li><i class="fas fa-check"></i> Window sills cleaning</li>
-                        <!--<li><i class="fas-->
-                    </ul>
-    </section>
+          <div class="pricing-card featured">
+            <h3>Standard Clean</h3>
+            <div class="price">$180</div>
+            <p class="price-period">Per Visit</p>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Everything in Basic</li>
+              <li><i class="fas fa-check"></i> Inside microwave & fridge</li>
+              <li><i class="fas fa-check"></i> Baseboards wiping</li>
+              <li><i class="fas fa-check"></i> Window sills cleaning</li>
+              <li><i class="fas fa-check"></i> Detailed dusting</li>
+              <li><i class="fas fa-check"></i> Eco-friendly products</li>
+            </ul>
+            <a href="#" onclick="showSection('contact')" class="cta-btn"
+              >Book Now</a
+            >
+          </div>
+
+          <div class="pricing-card">
+            <h3>Premium Clean</h3>
+            <div class="price">$250</div>
+            <p class="price-period">Per Visit</p>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Everything in Standard</li>
+              <li><i class="fas fa-check"></i> Inside oven cleaning</li>
+              <li><i class="fas fa-check"></i> Inside cabinets</li>
+              <li><i class="fas fa-check"></i> Window washing</li>
+              <li><i class="fas fa-check"></i> Wall spot cleaning</li>
+              <li><i class="fas fa-check"></i> Laundry service</li>
+              <li><i class="fas fa-check"></i> Priority scheduling</li>
+            </ul>
+            <a href="#" onclick="showSection('contact')" class="cta-btn"
+              >Book Now</a
+            >
+          </div>
+        </div>
+      </section>
     </div>
+
+    <!-- Blog Page -->
+    <div id="blog" class="page-section">
+      <div class="blog-header">
+        <h1>Cleaning Tips & Insights</h1>
+        <p>Expert advice to keep your space fresh and healthy</p>
+      </div>
+
+      <section class="container">
+        <div class="blog-controls">
+          <button
+            class="add-article-btn admin-only hidden"
+            onclick="openArticleModal()"
+          >
+            <i class="fas fa-plus"></i> Add New Article
+          </button>
+          <button class="admin-logout-btn admin-only hidden" onclick="logout()">
+            <i class="fas fa-sign-out-alt"></i> Logout
+          </button>
+        </div>
+
+        <div id="blogGrid" class="blog-grid">
+          <!-- Blog articles will be rendered here -->
+        </div>
+      </section>
+    </div>
+
+    <!-- Testimonials Page -->
+    <div id="testimonials" class="page-section">
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="section-title">What Our Clients Say</h2>
+          <p class="section-subtitle">Real feedback from satisfied customers</p>
+          <div class="testimonials-grid">
+            <div class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p class="testimonial-text">
+                "Maria's team transformed my home! They're thorough,
+                professional, and always on time. I wouldn't trust anyone else
+                with my cleaning needs. Every corner sparkles and they use
+                eco-friendly products which I absolutely love."
+              </p>
+              <p class="testimonial-author">— Sarah Johnson</p>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p class="testimonial-text">
+                "Outstanding service! They deep cleaned our office and it looks
+                brand new. The attention to detail is incredible. Highly
+                recommend for any commercial cleaning needs!"
+              </p>
+              <p class="testimonial-author">— Michael Chen</p>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p class="testimonial-text">
+                "The best cleaning service I've ever used. Eco-friendly
+                products, reliable team, and amazing results every single time.
+                Worth every penny!"
+              </p>
+              <p class="testimonial-author">— Emily Rodriguez</p>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p class="testimonial-text">
+                "We hired Maria's team for our move-out cleaning and they
+                exceeded all expectations. The landlord was impressed and we got
+                our full deposit back. Professional and efficient!"
+              </p>
+              <p class="testimonial-author">— David Thompson</p>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars">★★★★★</div>
+              <p class="testimonial-text">
+                "I've been using their weekly service for over a year now.
+                Consistent quality, friendly staff, and they work around my
+                schedule. Coming home to a clean house every week is such a
+                treat!"
+              </p>
+              <p class="testimonial-author">— Lisa Martinez</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Contact & Booking Page -->
+    <div id="contact" class="page-section">
+      <section class="contact-section">
+        <div class="container">
+          <h2 class="section-title">Book Your Cleaning Service</h2>
+          <p class="section-subtitle">
+            Fill out the form below and we'll get back to you within 24 hours
+          </p>
+
+          <div class="contact-container">
+            <div class="contact-info">
+              <h3>Contact Information</h3>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <strong>Phone</strong><br />
+                  (555) 123-4567
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <strong>Email</strong><br />
+                  info@mariacleaning.com
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-clock"></i>
+                <div>
+                  <strong>Operating Hours</strong><br />
+                  Monday - Friday: 8:00 AM - 6:00 PM<br />
+                  Saturday: 9:00 AM - 4:00 PM<br />
+                  Sunday: Closed
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <strong>Service Area</strong><br />
+                  Greater Metropolitan Area<br />
+                  Within 30 miles radius
+                </div>
+              </div>
+            </div>
+
+            <div class="booking-form">
+              <h3>Request a Quote</h3>
+              <form id="bookingForm">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" required />
+                </div>
+                <div class="form-group">
+                  <label for="service">Type of Service *</label>
+                  <select id="service" required>
+                    <option value="">Select a service...</option>
+                    <option value="residential">Residential Cleaning</option>
+                    <option value="deep">Deep Cleaning</option>
+                    <option value="moveinout">Move-In/Out Cleaning</option>
+                    <option value="commercial">Commercial Cleaning</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="date">Preferred Date</label>
+                  <input type="date" id="date" />
+                </div>
+                <div class="form-group">
+                  <label for="time">Preferred Time</label>
+                  <input type="time" id="time" />
+                </div>
+                <div class="form-group">
+                  <label for="message">Additional Notes</label>
+                  <textarea
+                    id="message"
+                    rows="4"
+                    placeholder="Tell us more about your cleaning needs..."
+                  ></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Request</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Maria Cleaning Services</h3>
+          <p>
+            Professional cleaning services you can trust. Making your space
+            spotless since 2014.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#" onclick="showSection('home')">Home</a></li>
+            <li><a href="#" onclick="showSection('about')">About Us</a></li>
+            <li><a href="#" onclick="showSection('services')">Services</a></li>
+            <li><a href="#" onclick="showSection('pricing')">Pricing</a></li>
+            <li><a href="#" onclick="showSection('blog')">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="#" onclick="showSection('services')"
+                >Residential Cleaning</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="showSection('services')">Deep Cleaning</a>
+            </li>
+            <li>
+              <a href="#" onclick="showSection('services')">Move-In/Out</a>
+            </li>
+            <li>
+              <a href="#" onclick="showSection('services')"
+                >Commercial Cleaning</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul class="footer-links">
+            <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@mariacleaning.com</li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Serving Greater Metro Area
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2024 Maria Cleaning Services. All rights reserved. | Privacy
+          Policy | Terms of Service
+        </p>
+      </div>
+    </footer>
+
+    <!-- Article Modal (for adding/editing articles) -->
+    <div id="articleModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="modalTitle">Add New Article</h2>
+          <button class="close-modal" onclick="closeArticleModal()">×</button>
+        </div>
+        <form id="articleForm" onsubmit="saveArticle(event)">
+          <input type="hidden" id="articleId" />
+          <div class="form-group">
+            <label for="articleTitle">Title *</label>
+            <input type="text" id="articleTitle" required />
+          </div>
+          <div class="form-group">
+            <label for="articleCategory">Category *</label>
+            <select id="articleCategory" required>
+              <option value="Tips & Tricks">Tips & Tricks</option>
+              <option value="Home Care">Home Care</option>
+              <option value="Eco-Friendly">Eco-Friendly</option>
+              <option value="Health & Wellness">Health & Wellness</option>
+              <option value="Seasonal">Seasonal</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="articleIcon"
+              >Icon (Font Awesome class, e.g., fa-lightbulb)</label
+            >
+            <input type="text" id="articleIcon" placeholder="fa-lightbulb" />
+          </div>
+          <div class="form-group">
+            <label for="articleExcerpt">Short Description *</label>
+            <textarea id="articleExcerpt" rows="2" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="articleContent">Full Content *</label>
+            <textarea id="articleContent" rows="8" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="articleAuthor">Author</label>
+            <input
+              type="text"
+              id="articleAuthor"
+              placeholder="Maria Rodriguez"
+            />
+          </div>
+          <button type="submit" class="submit-btn">Save Article</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Article View Modal -->
+    <div id="viewModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Article</h2>
+          <button class="close-modal" onclick="closeViewModal()">×</button>
+        </div>
+        <div id="articleView" class="article-full">
+          <!-- Article content will be displayed here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Sticky CTA -->
+    <a href="#" onclick="showSection('contact')" class="sticky-cta"
+      >Get a Free Quote</a
+    >
+
+    <!-- Admin Login Button -->
+    <button class="admin-login-btn" onclick="openLoginModal()">
+      <i class="fas fa-lock"></i> Admin Login
+    </button>
+
+    <!-- Admin Login Modal -->
+    <div id="loginModal" class="modal login-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Admin Login</h2>
+          <button class="close-modal" onclick="closeLoginModal()">×</button>
+        </div>
+        <form class="login-form" onsubmit="handleLogin(event)">
+          <div class="form-group">
+            <label for="adminUsername">Username</label>
+            <input type="text" id="adminUsername" required />
+          </div>
+          <div class="form-group">
+            <label for="adminPassword">Password</label>
+            <input type="password" id="adminPassword" required />
+          </div>
+          <button type="submit" class="submit-btn">Login</button>
+          <p
+            style="
+              margin-top: 1rem;
+              color: var(--text-light);
+              font-size: 0.9rem;
+            "
+          >
+            Demo: Username: <strong>admin</strong> | Password:
+            <strong>maria2024</strong>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/blog.js"></script>
   </body>
 </html>
