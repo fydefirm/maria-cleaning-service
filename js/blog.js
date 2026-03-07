@@ -312,13 +312,17 @@ document
 
     try {
       // Send to backend API
-      const response = await fetch("http://localhost:3000/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await fetch(
+        "https://purple-forest-0cca19f0f.2.azurestaticapps.net/api/contact",
+        {
+          // http://localhost:3000/api/contact (url for local testing)
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
         },
-        body: JSON.stringify(formData),
-      });
+      );
 
       const result = await response.json();
 
