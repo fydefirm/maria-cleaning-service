@@ -36,7 +36,7 @@ let articles = [
       "Explore natural cleaning alternatives that are safe, effective, and environmentally responsible.",
     content:
       "Switching to eco-friendly cleaning products is easier than you think and offers numerous benefits for your family and the environment.\n\nWhy Choose Eco-Friendly?\nTraditional cleaning products often contain harsh chemicals that can irritate skin, trigger allergies, and harm the environment. Natural alternatives are just as effective without these drawbacks.\n\nSimple Natural Solutions\n\nVinegar and Water: Perfect for glass, countertops, and most surfaces. Mix equal parts in a spray bottle.\n\nBaking Soda: An excellent gentle abrasive for scrubbing sinks, tubs, and tile.\n\nLemon Juice: Natural disinfectant with a fresh scent, great for cutting boards and removing stains.\n\nCastile Soap: Versatile plant-based soap for floors, dishes, and general cleaning.\n\nEssential Oils: Add tea tree or lavender oil for natural antimicrobial properties and pleasant scents.\n\nBenefits You'll Notice\n- Safer for children and pets\n- No harsh chemical odors\n- Cost-effective solutions\n- Reduced plastic waste\n- Healthier indoor air quality\n\nMaking the switch to eco-friendly cleaning is a simple change with lasting positive impacts.",
-    author: "Emily Brown",
+    author: "Emily Green",
     date: "2024-02-05",
   },
   {
