@@ -24,7 +24,7 @@ let articles = [
       "Learn how a clean living space positively impacts your mental health, productivity, and overall wellbeing.",
     content:
       "A clean home offers benefits that extend far beyond aesthetics. Research shows that our living environment significantly impacts our mental and physical health.\n\nMental Health Benefits\nClutter and mess can increase stress and anxiety levels. A clean, organized space promotes calmness and mental clarity. Many people report feeling more relaxed and focused in tidy environments.\n\nImproved Productivity\nWhen your space is organized, you spend less time searching for items and more time on meaningful activities. This efficiency boost can improve both work and personal life.\n\nBetter Physical Health\nRegular cleaning removes allergens, dust, and bacteria that can affect respiratory health. This is especially important for those with allergies or asthma.\n\nEnhanced Sleep Quality\nA clean bedroom with fresh sheets and organized spaces promotes better sleep. The psychological comfort of a tidy room helps you relax and unwind.\n\nIncreased Motivation\nLiving in a clean space often motivates people to maintain healthy habits in other areas of life, from exercise to nutrition.\n\nInvesting in a clean home is truly an investment in your overall wellbeing.",
-    author: "Dr. Sarah Chen",
+    author: "Mrs. Sarah Chen",
     date: "2024-02-10",
   },
   {
